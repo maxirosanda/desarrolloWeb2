@@ -1,0 +1,22 @@
+$color-primario: rgb(184, 0, 0);
+$boton:(
+    borde:0,
+    padding: 10px 15px,
+    radio: 5px
+    );
+
+$tarjeta:(
+    displey:flex,
+    margen: 5px,
+    textoMargenIzq:10px,
+    botonColor: rgb(4, 0, 255),
+);
+
+$justifyContent:(
+    start:start,
+    center:center,
+    end:end,around:space-around,
+    between:space-between,
+    evenly:space-evenly
+    );
+$alignItems:(start ,center, end)

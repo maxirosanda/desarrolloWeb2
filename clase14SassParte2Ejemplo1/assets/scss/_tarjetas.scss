@@ -1,0 +1,19 @@
+.tarjeta{
+    display: map-get($tarjeta, displey );
+    margin: map-get($tarjeta , margen );
+    @include propidadesPrincipal(rgb(255, 255, 255),false ,600px ,auto );
+    .tarjeta__texto{
+        margin-left: map-get($tarjeta , textoMargenIzq );
+    }
+    button {
+       @extend .boton;
+       @include propidadesPrincipal(map-get($tarjeta , botonColor),true ,100px ,auto );
+    }
+
+}
+
+.tarjetaVertical{
+    @extend .tarjeta;
+    flex-direction: column;
+    @include propidadesPrincipal(rgb(255, 255, 255),false ,250px ,auto );
+}

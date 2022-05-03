@@ -1,0 +1,51 @@
+nav {
+  background-color: #eb7e31;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  padding: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.post {
+  background-color: #eb7e31;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+
+.post button {
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: #0A64F2;
+  color: #fff;
+}
+
+.post button:hover {
+  background-color: #2878fa;
+}
+
+.post h5 {
+  font-size: 24px;
+}
+
+.post p {
+  font-size: 18px;
+}
+
+footer {
+  background-color: #eb7e31;
+  padding: 15px;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

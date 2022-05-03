@@ -1,0 +1,14 @@
+.botones{
+    margin: 10px;
+}
+.boton{
+    border: map-get($boton , borde );
+    padding: map-get($boton , padding );
+    border-radius: map-get($boton , radio );
+}
+
+.boton-primario{
+    @extend .boton;
+    @include propidadesPrincipal(rgb(226, 218, 218),false ,100px ,auto )
+
+}

@@ -1,0 +1,45 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-fluid{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@for $var from 1 to 10 {
+    .col-#{$var}{
+        width: 10% * $var;
+    }
+}
+
+@each $clave ,$var in $justifyContent{
+    .justify-content-#{$clave} {
+        justify-content: $var;
+    }
+}
+
+@each $var in $alignItems {
+    .align-items-#{$var} {
+        align-items: $var;
+    }
+}
+@media(min-width:768px){
+    @for $var from 1 to 10 {
+        .col-md-#{$var}{
+            width: 10% * $var;
+        }
+    }
+}
+
+@for $var from 0 to 5 {
+    .p-#{$var}{
+     padding: 5px * $var;
+    }
+}
+
+
+
+
+

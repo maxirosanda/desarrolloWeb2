@@ -1,0 +1,11 @@
+@mixin propidadesPrincipal ($bg-color,$dark,$ancho,$alto) {
+    background-color:$bg-color ;
+    @if $dark == true {
+        color: white;
+    }
+    @else {
+        color:black
+    }
+    width: $ancho;
+    height: $alto;
+}
